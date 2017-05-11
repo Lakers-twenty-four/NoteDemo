@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/update_menu"
+        android:icon="@drawable/update_menu"
+        android:title="editor"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/delete_menu"
+        android:icon="@drawable/delete_menu"
+        android:title="delete"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/help_menu"
+        android:title="help"
+        android:showAsAction="never"
+        app:showAsAction="never"/>
+</menu>
